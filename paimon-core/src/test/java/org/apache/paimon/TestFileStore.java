@@ -98,7 +98,6 @@ public class TestFileStore extends KeyValueFileStore {
     private final InternalRowSerializer keySerializer;
     private final InternalRowSerializer valueSerializer;
     private final String commitUser;
-
     private long commitIdentifier;
 
     private TestFileStore(
